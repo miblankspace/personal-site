@@ -1,7 +1,8 @@
-import Image from "next/image";
 import Navbar from "./components/navbar";
 import Landing from "./pages/landing";
 import About from "./pages/about";
+import Experience from "./pages/experience";
+import Projects from "./pages/projects";
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
       <Navbar />
       <Landing />
       <About />
+      <Experience />
+      <Projects />
     </>
   );
 }

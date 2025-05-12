@@ -1,40 +1,67 @@
+"use client";
+import { useState } from "react";
+import Toggle from "@/app/components/toggle";
 export default function About() {
+  const [isSoftware, setIsSoftware] = useState<boolean>(true);
   return (
-    <main className="bg-gradient-to-b from-[var(--highlight)] to-[var(--background)] py-16 text-[var(--primary)]">
-      <div className="max-w-5xl mx-auto px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* About Me Section */}
-          <section id="about" className="flex flex-col items-center">
-            <h2 className="text-3xl font-semibold mb-4">About Me</h2>
-            <p className="text-lg text-center">
-              I'm Michelle, a Systems Design Engineering student at the
-              University of Waterloo. I'm passionate about technology and
-              exploring how it can be used to solve real-world problems.
+    <main
+      id="about"
+      className="scroll-mt-36 bg-gradient-to-b from-[var(--highlight)] to-[var(--background)] text-[var(--primary)] flex items-center justify-center"
+    >
+      <div className="w-full max-w-5xl">
+        <h1 className="text-xl">About Me!</h1>
+        <div className="flex flex-row">
+          <div className="flex flex-col flex-1">
+            <h2 className="text-lg font-semibold">Experience</h2>
+            <p className="text-base">
+              Previous SWE intern @ Edisoft, Dayforce, BDO
             </p>
-          </section>
-
-          {/* Tech Stack Section */}
-          <section id="tech-stack" className="flex flex-col items-center">
-            <h2 className="text-3xl font-semibold mb-4">Tech Stack</h2>
-            <ul className="text-lg">
-              <li>JavaScript, React</li>
-              <li>Node.js, Express</li>
-              <li>Python</li>
-              <li>Git & GitHub</li>
-              <li>SQL, MongoDB</li>
-            </ul>
-          </section>
-
-          {/* Experience Section */}
-          <section id="experience" className="flex flex-col items-center">
-            <h2 className="text-3xl font-semibold mb-4">Experience</h2>
-            <p className="text-lg text-center">
-              I've completed co-ops as a full-stack developer, where I built web
-              applications using React, Node.js, and MongoDB. I'm currently
-              looking for new opportunities to expand my skill set.
-            </p>
-          </section>
+            <div className="flex mt-1 mb-4">
+              <a
+                href="#experience"
+                className="text-sm mt-0.5 underline underline-offset-5 hover:text-[var(--secondary)] transition-colors"
+              >
+                Read more
+              </a>
+              <span className="ml-1">⬇️</span>
+            </div>
+          </div>
+          <div className="flex flex-col flex-[1.5]">
+            <div className="flex flex-row gap-4 items-center">
+              <h2 className="text-lg font-semibold">Tech Stack</h2>
+              <Toggle
+                option1="software"
+                option2="hardware"
+                isOption1={isSoftware}
+                setIsOption1={setIsSoftware}
+              />
+            </div>
+            {isSoftware ? (
+              <>
+                <p className="text-base mb-2">
+                  <span className="font-semibold">Languages:</span> C#,
+                  JavaScript, TypeScript, Python, SQL, C/C++, CSS, MATLAB
+                </p>
+                <p className="text-base mb-2">
+                  <span className="font-semibold">Libraries/Frameworks:</span>{" "}
+                  React, Redux, Angular, Next.js, ASP.NET Core, EF Core, MUI
+                </p>
+                <p className="text-base mb-2">
+                  <span className="font-semibold">Tools:</span> SQL Server,
+                  SSMS, Git, Azure, Jira, Figma
+                </p>
+              </>
+            ) : (
+              <p className="text-base mb-2">
+                <span className="font-semibold">Languages:</span> C, Python
+              </p>
+            )}
+          </div>
         </div>
+        <h2 className="text-lg font-semibold">Hobbies</h2>
+        <p className="text-base">
+          💃🏻 Dance 🎹 Piano 🏓 Ping Pong 🎱 Pool ⛸️ Skating 👾 Anime & Games{" "}
+        </p>
       </div>
     </main>
   );
