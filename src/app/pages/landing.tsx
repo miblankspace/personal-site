@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from "react-icons/fa";
+import Image from "next/image";
 
 export default function Landing() {
   return (
@@ -10,7 +11,7 @@ export default function Landing() {
             Systems Design Engineering 3A @ UWaterloo
           </p>
           <p className="text-base text-[var(--primary)]">
-            {"Hi, I'm Michelle - an eng student exploring my place in tech. I've worked in software dev, dabbled in hardware, and am always eager to learn and take on new challenges. ✨"}
+            {"Hi, I'm Michelle - an eng student exploring my place in tech. I've worked in software dev, dabbled in hardware, and am always eager to learn and take on new challenges. ^_^"}
           </p>
           <div className="flex gap-4 justify-center sm:justify-start flex-wrap mt-2">
             <a
@@ -45,7 +46,7 @@ export default function Landing() {
         </div>
         <div className="flex items-center justify-center w-full sm:w-1/2">
           <div className="w-full aspect-square max-w-xs bg-[var(--highlight)] text-[var(--primary)] flex items-center justify-center rounded-lg">
-            image
+            <Image src="/profile-cat-nobg.png" alt="Profile Image" width={150} height={150} />
           </div>
         </div>
       </div>

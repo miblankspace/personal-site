@@ -16,47 +16,11 @@ const projects: Project[] = [
     type: "software",
   },
   {
-    title: "Henry the Healthcare Chatbot",
+    title: "Coming Soon!",
     type: "software",
   },
   {
-    title: "Henry the Healthcare Chatbot",
-    type: "software",
-  },
-  {
-    title: "Henry the Healthcare Chatbot",
-    type: "software",
-  },
-  {
-    title: "Henry the Healthcare Chatbot",
-    type: "software",
-  },
-  {
-    title: "Henry the Healthcare Chatbot",
-    type: "software",
-  },
-  {
-    title: "Henry the Healthcare Chatbot",
-    type: "software",
-  },
-  {
-    title: "Henry the Healthcare Chatbot",
-    type: "software",
-  },
-  {
-    title: "Henry the Healthcare Chatbot",
-    type: "software",
-  },
-  {
-    title: "Henry the Healthcare Chatbot",
-    type: "software",
-  },
-  {
-    title: "Henry the Healthcare Chatbot",
-    type: "software",
-  },
-  {
-    title: "Colour band filter organ",
+    title: "Coming Soon!",
     type: "hardware",
   },
 ];

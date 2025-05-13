@@ -53,7 +53,7 @@ export default function About() {
               </>
             ) : (
               <p className="text-base mb-2">
-                <span className="font-semibold">Languages:</span> C, Python
+                Coming Soon!
               </p>
             )}
           </div>
