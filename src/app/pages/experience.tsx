@@ -82,11 +82,9 @@ export default function Experience() {
                 {exp.images && exp.images.length > 0 && (
                   <div className="flex gap-2 mt-2">
                     {exp.images.map((image, idx) => (
-                      <img
-                        key={idx}
-                        src={image}
-                        className="w-16 h-16 object-cover rounded-md"
-                      />
+                        <div key={idx}>
+                          {image}
+                        </div>
                     ))}
                   </div>
                 )}

@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import { FaGithub } from "react-icons/fa";
 import Toggle from "@/app/components/toggle";
 
 type Project = {

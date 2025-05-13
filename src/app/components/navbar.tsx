@@ -11,7 +11,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 bg-[var(--highlight)] text-[var(--primary)] shadow-sm flex w-full">
       <div className="ml-10 px-6 py-4 flex justify-start">
         <a
-          href="/#"
+          href="#"
           className="font-medium hover:text-[var(--secondary)]  transition-colors"
         >
           Home
