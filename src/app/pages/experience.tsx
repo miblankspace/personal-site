@@ -19,22 +19,25 @@ const experiences: Experience[] = [
       
     One of the trickiest challenges I tackled was a mysterious timeout bug — users were getting logged out randomly, with no consistent steps to reproduce. What started as a simple fix turned into a full authentication overhaul. I separated the idle timeout from the token refresh logic and rebuilt the auth system to properly handle refresh token rotation, including database redesign to support multi-session management. 
     
-    After securing the authentication process, I excessively logged and observed inconsistencies in real-time user refresh patterns, which led me to the root cause. An edge case with timer unmount during hard refresh caused access tokens to expire, triggering overlapping refresh requests (due to the pre-existing axios 401 error handling), which resulted in token collisions. The fix involved implementing smarter intervals based on the saved time state to handle edge cases during unmount/remount and throttling parallel requests from axios, eliminating the timeout issue and making sessions much more reliable.      
+    After securing the authentication process, I excessively logged and observed inconsistencies in real-time user refresh patterns, which allowed me to determine the root cause. An edge case with timer unmount during hard refresh caused access tokens to expire, triggering overlapping refresh requests (due to the pre-existing axios 401 error handling), which resulted in token collisions. The fix involved implementing smarter intervals based on the saved time state to handle edge cases during unmount/remount and throttling parallel requests from axios, eliminating the timeout issue and making sessions much more reliable.      
    
-    I took ownership of several new features including the cross-reference management and import logic important for EDI workflows, and EDI file downloads, working closely with PdM to define design requirements and handle edge cases. I also led the UI/UX audit with the Director of UX and created reusable components for consistency across the user platform.`,
+    I took ownership of several new features including the cross-reference management and import logic important for EDI workflows, and EDI file downloads, working closely with PdM to define design requirements and handle edge cases. I also led the UI/UX audit with the Director of UX and created reusable components for consistency across the user platform. I presented these new features at company-wide demos.`,
     images: ["/edisoft1.jpg", "/edisoft2.jpeg"],
   },
   {
     company: "BDO",
     role: "Full-Stack Developer",
     dates: "May 2024 - Aug 2024",
-    description: `Coming Soon! `,
+    description: `Working in a team of two, another other co-op student and I spearheaded the full-cycle upgrade of old beneficial ownership and tax information/exchange systems from Angular version 6 to 17. This included replacing deprecated packages, resolving security vulnerabilities, and fixing critical functionality of various nature to ensure compatibility, stability, and improved performance of the application. For each major upgrade, we ran smoke and regression tests to catch breaking changes early. `,
   },
   {
     company: "Dayforce (Ceridian)",
     role: "Backend Developer",
     dates: "Sep 2023 - Dec 2023",
-    description: `Coming Soon! `,
+    description: `As a backend developer on the Dayforce Wallet Gateway team, I worked on both existing systems and new feature development. I built RESTful APIs for the “Instant Transfer” service, enabling Wallet users to access on-demand pay within minutes. I also contributed to the Dayforce Wallet Rewards program, where I reduced storage costs by 50GB by optimizing logging — migrating from the audit trail to Application Insights. My work involved a microservice architecture leveraging Kafka as a message queue for event-driven communication.
+
+    Additionally, I developed and deployed a health check API using C# and ASP.NET Core to monitor critical dependencies for the employee referral program. This included SQL Server databases, external HTTP services, and Kafka, enabling rapid detection of system issues. Throughout the term, I actively participated in the Agile development lifecycle, including daily scrum, sprint planning, backlog refinement, retrospectives, design reviews, and demos. `,
+    images: ["/dayforce1.png", "/dayforce2.png"],
   },
   {
     company: "From Art to Heart Society",
@@ -43,7 +46,7 @@ const experiences: Experience[] = [
     description: `Coming Soon! `,
   },
   {
-    company: "JFSS HOSA",
+    company: "JFSS HOSA - Future Health Professionals",
     role: "President",
     dates: "Jul 2021 - Jul 2022",
     description: `Coming Soon!`,

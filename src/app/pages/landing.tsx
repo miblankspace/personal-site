@@ -11,7 +11,7 @@ export default function Landing() {
             Systems Design Engineering 3A @ UWaterloo
           </p>
           <p className="text-base text-[var(--primary)]">
-            {"Hi, I'm Michelle - an eng student exploring my place in tech. I've worked in software dev, dabbled in hardware, and am always eager to learn and take on new challenges. ^_^"}
+            {`Hi, I'm Michelle - an eng student exploring my place in tech. I've worked in software dev, dabbled in hardware, and am always eager to learn and take on new challenges. ^_^`}
           </p>
           <div className="flex gap-4 justify-center sm:justify-start flex-wrap mt-2">
             <a
