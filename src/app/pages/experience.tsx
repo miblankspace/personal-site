@@ -57,7 +57,7 @@ const experiences: Experience[] = [
     company: "JFSS HOSA - Future Health Professionals",
     role: "President",
     dates: "Jul 2021 - Jul 2022",
-    description: `I co-ran our HOSA chapter, coordinating every facet of club operations—from finance and communications to marketing and member training. Managing a team of 75 (training leads, execs, general members) meant prioritizing a wide range of tasks, troubleshooting hiccups on the fly, and ensuring everyone had the support and resources to succeed.
+    description: `I co-ran our HOSA chapter, coordinating every facet of club operations — from finance and communications to marketing and member training. Managing a team of 75 (training leads, execs, general members) meant prioritizing a wide range of tasks, troubleshooting hiccups on the fly, and ensuring everyone had the support and resources to succeed.
 
     Our club prepared members to compete in 14 medical events. I taught core medical terminology concepts and ran mock quizzes, and our efforts paid off—28 members placed in the top 10 nationally, and I earned an 8th-place finish in the forensic science event.
 
