@@ -59,9 +59,9 @@ const experiences: Experience[] = [
     dates: "Jul 2021 - Jul 2022",
     description: `I co-ran our HOSA chapter, coordinating every facet of club operations — from finance and communications to marketing and member training. Managing a team of 75 (training leads, execs, general members) meant prioritizing a wide range of tasks, troubleshooting hiccups on the fly, and ensuring everyone had the support and resources to succeed.
 
-    Our club prepared members to compete in 14 medical events. I taught core medical terminology concepts and ran mock quizzes, and our efforts paid off—28 members placed in the top 10 nationally, and I earned an 8th-place finish in the forensic science event.
+    Our club prepared members to compete in 14 medical events. I taught core medical terminology concepts and ran mock quizzes. Our efforts paid off — 28 members placed in the top 10 nationally, and I earned an 8th-place finish in the forensic science event.
 
-    I’m still passionate about medicine and the application of medical technology, and I’m eager to keep exploring how tech can transform healthcare—and maybe work on the next lifesaving gadget someday!`,
+    I’m still passionate about medicine and the application of medical technology, and I’m eager to keep exploring how tech can transform healthcare, maybe even working on the next lifesaving gadget someday!`,
     images: ["/hosa1.png"],
   },
 ];
