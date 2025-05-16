@@ -34,7 +34,7 @@ export default function Landing() {
               <FaEnvelope className="text-xl" />
             </a>
             <a
-              href="/resume.pdf" // <-- update this with your resume file path
+              href="https://drive.google.com/file/d/1aC7l588osCM_FmFwlAtd0TK_KiDOqAn9/view?usp=sharing"
               className="button"
               target="_blank"
               rel="noopener noreferrer"
