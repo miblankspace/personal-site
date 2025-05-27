@@ -34,7 +34,7 @@ export default function Landing() {
               <FaEnvelope className="text-xl" />
             </a>
             <a
-              href="https://drive.google.com/file/d/1aC7l588osCM_FmFwlAtd0TK_KiDOqAn9/view?usp=sharing"
+              href="https://drive.google.com/file/d/1mGMXJb33U8Zd45_KumAvVq1VljIl8qJl/view?usp=sharing"
               className="button"
               target="_blank"
               rel="noopener noreferrer"
