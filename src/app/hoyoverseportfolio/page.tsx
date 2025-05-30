@@ -396,7 +396,7 @@ const projects: Project[] = [
   {
     title: "Music, Emotion, and Perception Psychology Experiment",
     description:
-      "Experiment and study on how music influencex emotional state and perception.",
+      "Experiment and study on how music influences emotional state and perception.",
     detailsComponent: MusicExperimentDetails,
   },
   {
