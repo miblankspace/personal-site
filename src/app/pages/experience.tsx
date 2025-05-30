@@ -42,7 +42,7 @@ const experiences: Experience[] = [
   {
     company: "From Art to Heart Society",
     role: "Chief Transformation Officer",
-    dates: "Feb 2021 - Aug 2022",
+    dates: "",
     description: `At From Art to Heart, I helped grow our mission to make music accessible into a worldwide program. Working with the executive team, I supported international outreach and marketing efforts that brought in over 135 piano students and 70 youth volunteers across more than 10 countries.
 
     As a piano program director, I managed all things Ontario: interviewing piano teacher candidates, pairing them with students, and coordinating lessons across the region. I also trained new teachers, created ready-to-use email templates to streamline communication, and occasionally sat in on lessons to ensure a consistent, high-quality experience.
@@ -56,7 +56,7 @@ const experiences: Experience[] = [
   {
     company: "JFSS HOSA - Future Health Professionals",
     role: "President",
-    dates: "Jul 2021 - Jul 2022",
+    dates: "",
     description: `I co-ran our HOSA chapter, coordinating every facet of club operations — from finance and communications to marketing and member training. Managing a team of 75 (training leads, execs, general members) meant prioritizing a wide range of tasks, troubleshooting hiccups on the fly, and ensuring everyone had the support and resources to succeed.
 
     Our club prepared members to compete in 14 medical events. I taught core medical terminology concepts and ran mock quizzes. Our efforts paid off — 28 members placed in the top 10 nationally, and I earned an 8th-place finish in the forensic science event.

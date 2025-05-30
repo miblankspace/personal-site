@@ -1,5 +1,6 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaFilePdf } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Landing() {
   return (
@@ -14,26 +15,26 @@ export default function Landing() {
             {`Hi, I'm Michelle - an eng student exploring my place in tech. I've worked in software dev, dabbled in hardware, and am always eager to learn and take on new challenges. ^_^`}
           </p>
           <div className="flex gap-4 justify-center sm:justify-start flex-wrap mt-2">
-            <a
+            <Link
               href="https://github.com/miblankspace"
               className="button"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub className="text-xl" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://linkedin.com/in/michelletan03"
               className="button"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin className="text-xl" />
-            </a>
-            <a href="mailto:my2tan@uwaterloo.ca" className="button">
+            </Link>
+            <Link href="mailto:my2tan@uwaterloo.ca" className="button">
               <FaEnvelope className="text-xl" />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://drive.google.com/file/d/1mGMXJb33U8Zd45_KumAvVq1VljIl8qJl/view?usp=sharing"
               className="button"
               target="_blank"
@@ -41,12 +42,17 @@ export default function Landing() {
             >
               <FaFilePdf className="text-xl" />
               Resume
-            </a>
+            </Link>
           </div>
         </div>
         <div className="flex items-center justify-center w-full sm:w-1/2">
           <div className="w-full aspect-square max-w-xs bg-[var(--highlight)] text-[var(--primary)] flex items-center justify-center rounded-lg">
-            <Image src="/profile-cat-nobg.png" alt="Profile Image" width={150} height={150} />
+            <Image
+              src="/profile-cat-nobg.png"
+              alt="Profile Image"
+              width={150}
+              height={150}
+            />
           </div>
         </div>
       </div>

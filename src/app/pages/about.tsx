@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Toggle from "@/app/components/toggle";
+import Link from "next/link";
 export default function About() {
   const [isSoftware, setIsSoftware] = useState<boolean>(true);
   return (
@@ -17,12 +18,12 @@ export default function About() {
               Previous SWE intern @ Edisoft, Dayforce, BDO
             </p>
             <div className="flex mt-1 mb-4">
-              <a
+              <Link
                 href="#experience"
                 className="text-sm mt-0.5 underline underline-offset-5 hover:text-[var(--secondary)] transition-colors"
               >
                 Read more
-              </a>
+              </Link>
               <span className="ml-1">⬇️</span>
             </div>
           </div>
@@ -52,9 +53,7 @@ export default function About() {
                 </p>
               </>
             ) : (
-              <p className="text-base mb-2">
-                Coming Soon!
-              </p>
+              <p className="text-base mb-2">Coming Soon!</p>
             )}
           </div>
         </div>
