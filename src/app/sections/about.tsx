@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Toggle from "@/app/components/toggle";
 import Link from "next/link";
 export default function About() {
   const [isSoftware, setIsSoftware] = useState<boolean>(true);
@@ -22,7 +21,7 @@ export default function About() {
                 href="#experience"
                 className="text-sm mt-0.5 underline underline-offset-5 hover:text-[var(--secondary)] transition-colors"
               >
-                Read more
+                meow meow meow
               </Link>
               <span className="ml-1">⬇️</span>
             </div>
@@ -30,12 +29,6 @@ export default function About() {
           <div className="flex flex-col flex-[1.5]">
             <div className="flex flex-row gap-4 items-center">
               <h2 className="text-lg font-semibold">Tech Stack</h2>
-              <Toggle
-                option1="software"
-                option2="hardware"
-                isOption1={isSoftware}
-                setIsOption1={setIsSoftware}
-              />
             </div>
             {isSoftware ? (
               <>

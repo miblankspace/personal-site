@@ -13,16 +13,6 @@
   --font-mono: 'Fira Code', monospace;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0f172a;
-    --primary: #f1f5f9;
-    --secondary: #3b82f6;
-    --tertiary: #e5edfb;
-    --highlight: #1e40af;
-  }
-} */
-
 body {
   background: var(--background);
   color: var(--primary);
@@ -30,12 +20,6 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: var(--primary);
-  font-weight: 600;
-  margin-bottom: 20px;
 }
 
 html {

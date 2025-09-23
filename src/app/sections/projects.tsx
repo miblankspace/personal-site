@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Toggle from "@/app/components/toggle";
+import Toggle from "@/app/components/Toggle";
 
 type Project = {
   title: string;
