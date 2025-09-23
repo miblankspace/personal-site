@@ -2,7 +2,6 @@
 import { useState } from "react";
 import Link from "next/link";
 export default function About() {
-  const [isSoftware, setIsSoftware] = useState<boolean>(true);
   return (
     <main
       id="about"
@@ -30,24 +29,20 @@ export default function About() {
             <div className="flex flex-row gap-4 items-center">
               <h2 className="text-lg font-semibold">Tech Stack</h2>
             </div>
-            {isSoftware ? (
-              <>
-                <p className="text-base mb-2">
-                  <span className="font-semibold">Languages:</span> C#,
-                  JavaScript, TypeScript, Python, SQL, C/C++, CSS, MATLAB
-                </p>
-                <p className="text-base mb-2">
-                  <span className="font-semibold">Libraries/Frameworks:</span>{" "}
-                  React, Redux, Angular, Next.js, ASP.NET Core, EF Core, MUI
-                </p>
-                <p className="text-base mb-2">
-                  <span className="font-semibold">Tools:</span> SQL Server,
-                  SSMS, Git, Azure, Jira, Figma
-                </p>
-              </>
-            ) : (
-              <p className="text-base mb-2">Coming Soon!</p>
-            )}
+            <>
+              <p className="text-base mb-2">
+                <span className="font-semibold">Languages:</span> C#,
+                JavaScript, TypeScript, Python, SQL, C/C++, CSS, MATLAB
+              </p>
+              <p className="text-base mb-2">
+                <span className="font-semibold">Libraries/Frameworks:</span>{" "}
+                React, Redux, Angular, Next.js, ASP.NET Core, EF Core, MUI
+              </p>
+              <p className="text-base mb-2">
+                <span className="font-semibold">Tools:</span> SQL Server, SSMS,
+                Git, Azure, Jira, Figma
+              </p>
+            </>
           </div>
         </div>
         <h2 className="text-lg font-semibold">Hobbies</h2>
