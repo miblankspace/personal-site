@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaEnvelope, FaFilePdf, FaGithub, FaLinkedin } from "react-icons/fa";
 import Card from "./components/Card";
 import { experiences } from "./info";
+import FlipCardComponent from "./components/test3dcard";
 
 export default function Home() {
   return (
@@ -39,6 +40,9 @@ export default function Home() {
           </Link>
         </div>
       </header>
+      <div className="h-full w-full">
+        {/* <FlipCardComponent /> */}
+      </div>
       <div className="flex-1 py-12 px-40 bg-gradient-to-b from-[var(--background)] to-[var(--highlight)]">
         <div className="grid grid-cols-4 gap-8">
           {experiences.map((exp, idx) => (
@@ -49,6 +53,7 @@ export default function Home() {
               image={exp.image}
               type={exp.type}
               skills={exp.skills}
+              description={exp.description}
             />
           ))}
         </div>
